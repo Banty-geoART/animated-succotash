@@ -2,6 +2,7 @@ import React from 'react'
 import { RiAmazonLine, RiHeartFill, RiAddFill, RiShoppingBag2Fill } from "@remixicon/react";
 
 const bottom = (props) => {
+    console.log(props.link)
   return (
 //   <>
 //        <div className='px-3 py-6 flex gap-5 items-center'>
@@ -16,7 +17,10 @@ const bottom = (props) => {
 //       </div>
 //     </>
 
- <div className="flex flex-wrap items-center justify-between gap-3 px-3 py-4 sm:py-6">
+
+<a href={props.link}>
+
+     <div className="flex flex-wrap items-center justify-between gap-3 px-3 py-4 sm:py-6">
 
       <p className="text-xl font-bold text-neutral-950 sm:text-2xl">
         ₹ {props.price}
@@ -36,6 +40,8 @@ const bottom = (props) => {
       </button>
 
     </div>
+</a>
+
   )
 }
 

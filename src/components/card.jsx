@@ -39,7 +39,7 @@ const card = (props) => {
 
       <Line />
 
-      <Bottom price={props.price} />
+      <Bottom price={props.price} link={props.link} />
 
     </div>
   )

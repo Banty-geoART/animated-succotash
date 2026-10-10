@@ -14,6 +14,7 @@ const App = () => {
      head: 'Madara Uchiha',
      content: 'A muted sand-beige canvas meets Madara’s iconic silhouette, bold black artistry, and subtle crimson accents for a refined, dark anime aesthetic.',
      price: '599',
+     link: 'https://link.amazon/B0dQkAdjG'
       },
 
        {
@@ -24,6 +25,7 @@ const App = () => {
      head: 'Shikamaru Nara',
      content: 'Sand-beige minimalism meets Shikamaru’s iconic genius, blending bold white typography and muted camouflage into a refined streetwear statement.',
      price: '558',
+     link: 'https://link.amazon/B00Oc8eQA'
       },
 
       {
@@ -34,6 +36,7 @@ const App = () => {
         head: 'Roronoa Zoro',
         content: 'Crisp ivory meets Zoro’s legendary swordsman aura, contrasted by deep emerald accents and striking black artwork for elevated anime streetwear.',
         price: '563',
+        link: 'https://link.amazon/B05wYUruj'
       },
 
       {
@@ -44,6 +47,7 @@ const App = () => {
         head: 'Cosmic Struggle',
         content: 'A sleek black canvas frames a delicate moon-inspired motif, suspended astronaut, and crimson thread for a minimalist, contemplative aesthetic.',
         price: '572',
+        link: 'https://link.amazon/B03rckutG'
       },
 
       {
@@ -54,6 +58,7 @@ const App = () => {
         head: 'Gogeta Fusion',
         content: 'Soft ivory elegance meets Goku and Vegeta’s iconic fusion dance, blending vibrant anime artwork with understated tones for premium streetwear.',
         price: '799',
+        link: 'https://link.amazon/B0aDOV6Ay'
       },
 
       {
@@ -64,6 +69,7 @@ const App = () => {
         head: 'Ryomen Sukuna',
         content: 'Warm ivory elegance meets Sukuna’s fierce monochrome artwork, elevated by crimson accents for a bold, dark, luxury streetwear aesthetic.',
         price: '549',
+        link: 'https://link.amazon/B0aoL5U8a'
       },
 
       {
@@ -74,6 +80,7 @@ const App = () => {
         head: 'Monkey D. Luffy',
         content: 'Luffy’s radiant Gear 5 illustration brings playful rebellion to a creamy ivory silhouette, balancing expressive linework with effortlessly refined urban style.',
         price: '599',
+        link: 'https://link.amazon/B0e6QTqVw'
       },
 ]
 
@@ -97,6 +104,7 @@ const App = () => {
           head={val.head}
           content={val.content}
           price={val.price}
+          link={val.link}
         />
       ))}
     </div>
